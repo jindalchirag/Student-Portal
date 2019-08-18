@@ -1,4 +1,4 @@
-Smart ID card using NODEMCU and RFID on WEB interface.
+# Smart ID card using NODEMCU and RFID on WEB interface
 
 A Smart College ID card is a RFID tag detected by a RFID reader. The user needs to
 hover his card over the reader to log in and thereover has to enter a password into a
