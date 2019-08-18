@@ -59,10 +59,10 @@ if(isset($_POST['login']))
 					
 
 
-	// $apiKey = urlencode('fTv9iTQshu0-bWIGAXMHJTqqLVcSL8KGvPJu3LX00D');
+	// $apiKey = urlencode('Your_API_Key');
 	
 	// // Message details
-	// $numbers = array(+919407338268);
+	// $numbers = array('Your_Mobile_No');
 	// $sender = urlencode('TXTLCL');
 	// $otp=9874456;
 	// $message = rawurlencode('Your OTP is 9874456');
@@ -83,12 +83,9 @@ if(isset($_POST['login']))
 	// // Process your response here
 	// echo $response;
 // ******************************************************************************
-					// Potta - onpAh2edS4U-JysZMWM0vs5VJp6bPeusxHo7gf0z2v
-					// Chirag - fTv9iTQshu0-bWIGAXMHJTqqLVcSL8KGvPJu3LX00D
-					// NEW: Dfz9bd8jl1A-CoDDQHGRb9d0nr0D9BlRgu6ImlPd3z
-					$textlocal = new Textlocal(false, false, 'Dfz9bd8jl1A-CoDDQHGRb9d0nr0D9BlRgu6ImlPd3z');
+					$textlocal = new Textlocal(false, false, 'Your_API_Key');
 
-					$numbers = array(+919407338268);
+					$numbers = array('Your_Mobile_No');
 					$sender = 'TXTLCL';
 					$otp=mt_rand(1000,9999);
 					$message = "Your OTP is :" .$otp;
